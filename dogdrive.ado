@@ -18,7 +18,7 @@ program dogdrive
 	
 	// download the google colab as text
 
- copy "https://colab.research.google.com/drive/export?format=txt&id=`gtoken'" 'txtfile', replace text
+ copy "https://colab.research.google.com/drive/'gtoken'" 'txtfile', replace text
 
 	// get rid of the first three chars
 	file open `inhandle' using `txtfile', read binary
