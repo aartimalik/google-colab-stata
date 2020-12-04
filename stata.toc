@@ -1,0 +1,4 @@
+********************************************** stata.toc
+v 3
+d Random utils
+p dogdrive [run do files collaboratively from google drive]
